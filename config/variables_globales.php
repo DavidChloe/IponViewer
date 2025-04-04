@@ -26,30 +26,30 @@ define("REPERTOIRE_IPON_VIEWER", dirname(__DIR__));
 
 
 // Paramètres bdd d'IPON
-define("SID_IPON", "PIPODB1");
-define("HOST_IPON", "opipodbg4-adm.rouen.francetelecom.fr");
-define("PORT_IPON", "20340");
-define("USER_IPON", "netcracker1");
-define("PWD_IPON", "Cker]Ipo12");
+define("SID_IPON", "");
+define("HOST_IPON", "");
+define("PORT_IPON", "");
+define("USER_IPON", "");
+define("PWD_IPON", "");
 
 
 // Paramètres bdd d'IPON RIP
-define("SID_IPON_RIP", "PIPODB2");
-define("HOST_IPON_RIP", "opipodbr4-adm.rouen.francetelecom.fr");
-define("PORT_IPON_RIP", "20340");
-define("USER_IPON_RIP", "netcracker1");
-define("PWD_IPON_RIP", "Cker]Ipo12");
+define("SID_IPON_RIP", "");
+define("HOST_IPON_RIP", "");
+define("PORT_IPON_RIP", "");
+define("USER_IPON_RIP", "");
+define("PWD_IPON_RIP", "");
 
 
 // Paramètres bdd GEORESO RIP
-define("HOST_GEORESO", "ger-db1.reseau.francetelecom.fr");
-define("DB_NAME_GEORESO", "pgercm");
-define("USER_GEORESO", "pgercmselect");
-define("PWD_GEORESO", "Ger:1cms");
+define("HOST_GEORESO", "");
+define("DB_NAME_GEORESO", "");
+define("USER_GEORESO", "");
+define("PWD_GEORESO", "");
 
 // Paramètres bdd GEORESO RIP
-define("HOST_GEORESO_RIP", "ger-db1.reseau.francetelecom.fr");
-define("DB_NAME_GEORESO", "pgercm");
-define("USER_GEORESO", "pgercmselect");
-define("PWD_GEORESO", "Ger:1cms");
+define("HOST_GEORESO_RIP", "");
+define("DB_NAME_GEORESO", "");
+define("USER_GEORESO", "");
+define("PWD_GEORESO", "");
 ?>
