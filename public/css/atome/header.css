@@ -1,0 +1,215 @@
+.o-header__a-logo {
+    height: 60px;
+    /* margin-left: 6.5vh; */
+}
+
+.o-header__a-app {
+    font-family: "Helvetica-bold";
+    /* width: 5%; */
+    color: white;
+    text-decoration: none;
+    word-wrap: none;
+    word-break: keep-all;
+    white-space: nowrap;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+
+
+.o-header__a-app:hover {
+  color: #FF7900;
+}
+
+
+/* SEARCH BAR */
+/*Source : https://css-tricks.com/the-cleanest-trick-for-autogrowing-textareas/*/
+.o-header__a-navBackground {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0;
+
+  z-index: 1;
+}
+
+.o-header__a-navBackground > div {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 30%;
+  transform: scaleX(1.005);
+}
+
+.o-header__a-writeNav {
+    display: grid;
+    width: 70%;
+    position: relative;
+    z-index: 9999;
+}
+.o-header__a-writeNav::after {
+    content: attr(data-replicated-value) " ";
+
+    white-space: pre-wrap;
+
+    /* Hidden from view, clicks, and screen readers */
+    visibility: hidden;
+
+}
+
+.o-header__a-writeNav>textarea {  
+  /* You could leave this, but after a user resizes, then it ruins the auto sizing */
+    resize: none;
+
+    /* Firefox shows scrollbar on growth, you can hide like this. */
+    overflow: hidden;
+
+}
+
+.o-header__a-writeNav>textarea,
+.o-header__a-writeNav::after {
+    /* Identical styling required!! */
+    border: 2px solid black;
+    padding: 20px;
+    font: inherit;
+    transform: translateY(-0.97%);
+    /* Place on top of each other */
+    grid-area: 1 / 1 / 2 / 2;
+    
+}
+
+/*------------------------------------
+--------------------------------------*/
+/*SWITCH DATABASE*/
+
+  .o-header__m-switchDiv  .o-header__a-switch {
+    display: none;
+  }
+
+  /*TODO - PROBLEME, ID ND VIA NON FIXE QUAND DIV BOUGE*/
+  .o-header__m-switchDivSearch {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-self: flex-end;
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    z-index: 3;
+  }
+
+  .o-header__a-switch + label:after {
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    display: inline-block;
+    transition-duration: 0.3s;
+    width: 16px;
+    height: 16px;
+    content: '';
+  }
+
+  .o-header__a-switchSearch + label::after {
+    color: black;
+    border: 1px solid black;
+  }
+
+  .o-header__a-label{
+      margin-left: 6.5%;
+      margin-bottom: 2%;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+  }
+
+
+  .o-header__a-label:last-child {
+    width: 14%;
+    justify-content: space-between;
+}
+
+.o-header__a-label:nth-child(2) {
+    width: 9.5%;
+    justify-content: space-between;
+}
+
+
+.o-header__a-labelSearch {
+  margin-bottom: 0 auto;
+  margin-left: 50%;
+  width: 0%;
+  color: black;
+}
+
+  .o-header__a-switch:checked + label:after {
+    background-color: #FF7900;
+    color: #FF7900;
+  }
+
+  .o-header__a-switch {
+    vertical-align: -1px;
+  }
+
+
+  .o-header__a-search {
+    width: 100%;
+    font-family: "Helvetica";
+    font-size: 16px;
+    height: 60px;
+    background-color: #A885D8;
+    border: solid black 2px;
+    align-self: flex-start;
+    /* transform: translateY(-6%); */
+    z-index: 99;
+    cursor: pointer;
+  }
+
+  .o-header__a-search:hover {
+    background-color: #FF7900;
+  }
+
+
+  .o-header__m-containerSeveral> nav {
+    margin: 0 auto;
+}
+
+  .o-header__a-linkFav {
+    color: white;
+    align-self: flex-end;
+    margin-left: 73%;
+    margin-bottom: 2%;
+    text-decoration: none;
+  }
+
+  .o-header__a-linkFav:hover {
+    color: #FF7900;
+    text-decoration-style: none;
+  }
+
+  .o-header__a-search-qd, .o-header__a-search-audit{
+    /* width: 130%; */
+    position : relative;
+    font-family: "Helvetica";
+    font-size: 15px;
+    height: 37px;
+    background-color: #e7e7e7;
+    border: solid black 2px;
+    /* transform: translateY(-0.47vw); */
+    /* margin-left: 50%; */
+    border-radius: 30px;
+
+    cursor: pointer;
+  }
+  
+  .o-header__a-search-qd:hover , .o-header__a-search-audit:hover{
+    background-color: #FF7900;
+  }
+
+ .text{
+  padding-left: 2vw;
+ }
+ 

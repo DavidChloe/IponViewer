@@ -1,0 +1,75 @@
+/*SECTION RESULT*/
+.p-search__o-result {
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-top: 3%; */
+        /* padding-right: 24px;
+        padding-left: 24px; */
+        position: relative;
+        /* width: 93%; */
+        width: 100%;
+}
+
+/*TABLE*/
+.p-search__result {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    /* padding-top: 50px; */
+}
+
+.p-search__result2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /* padding-top: 50px; */
+}
+
+.p-search__result.pagination {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-search__result2.pagination {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.p-search__o-containerResult {
+    width: 100%;
+    height: 30%;
+}
+
+.p-search__o-state {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/*PAGINATION*/
+.pagination-info {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+.pagination-btn {
+    text-decoration: underline;
+    cursor: pointer;
+    color:#A885D8;
+}
+.pagination-btn.disabled {
+    color: grey;
+    cursor:default;
+}
+.pagination-btn:not('.disabled'):hover {
+    color: #FF7900;
+}

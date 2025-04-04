@@ -1,0 +1,57 @@
+.hidden {
+    display: none;
+}
+
+.o-result__m-typeContainer {
+    width: 100%;
+}
+
+.o-result__m-ContainerClient {
+    width: 100%;
+}
+
+.o-result__m-containerND {
+    width: 100%;
+}
+
+.o_result__m-containerResultDB {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.o-result__m-dataSearch {
+    /* width: 100%; */
+    padding-top: 16px;
+    /* margin-left: 24px;
+    margin-right: 24px; */
+    padding-left: 24px;
+    font-family: "Helvetica";
+}
+
+.o-result__m-dataSearch > span {
+    font-family: "Helvetica-bold";
+}
+
+.p-search__m-dataSearch-Scoreboard {
+    padding-left: 14px;
+    display: grid;
+    font-size: 14px;
+    grid-template-columns: repeat(2, 1fr);
+    width: 14%;
+}
+
+
+.p-search__m-dataSearch {
+    width: calc(18% - 24px);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.o-result__m-containerResult {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+

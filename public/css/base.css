@@ -1,0 +1,10 @@
+/* FONT */
+@font-face {
+    font-family: "Helvetica";
+    src: url("../font/Helvetica.ttf");
+   }
+
+@font-face {
+    font-family: "Helvetica-bold";
+    src: url("../font/Helvetica-bold.ttf");
+   }

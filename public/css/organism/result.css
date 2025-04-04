@@ -1,0 +1,12 @@
+.o-result {
+    border-collapse: collapse;
+    font-size: 14px;
+    font-family: "Helvetica";
+    margin-bottom: 50px;
+    width: 100%;
+    /*overflow-x: auto;
+    /*scrollbar-color: rebeccapurple green;*/
+    /*scrollbar-width: thin;
+    scroll-snap-type: y proximity;*/
+
+}

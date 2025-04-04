@@ -1,0 +1,4 @@
+date_last_verif_first_connection : 31/03/2025
+version_actuelle : V3.5.0
+version_disponible : V3.5.0
+date_last_verif_purge : 28/06/2023

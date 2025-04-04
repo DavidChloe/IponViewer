@@ -1,0 +1,55 @@
+--- VIOLINE script
+
+---------------liste des attr_id ACCES (4.2):
+-- 6120735726004996361 -- code commune (INSEE)
+-- 11 -- plateau depuis le pigtail-connector
+-- 9131984744213294563 -- opérateur de la route
+-- 7110954043112243226 -- géré par (plateau)
+
+---------------liste des object_type_id ACCES (4.2):
+-- 6040367073013835275 -- pigtail-connector
+
+---------------liste des attr_ids ACCES (4.3):
+
+-- 7070967307112129805 -- IAR Ccompte Client 
+-- 8050755945013937881 -- IAR dossier 
+-- 7070551846112089924 -- IAR de l'AT 
+-- 5092962624013011854 -- lien au compte client depuis l'AT 
+-- 8051241341013941372 -- customer account depuis le dossier 
+-- 8050765781013937911 -- AT du dossier 
+-- 8052155471013062092 -- PTO du dossier
+-- 9135605120813599531 -- DTIO du dossier
+-- 9133789793413601807 -- OC du dossier
+-- 6041365524004855460 -- last name (= nom du compte normalement, parfois juste l'opérateur, parfois juste l'IAR)
+-- 8050755945013937882 -- client du dossier
+-- 9031957260013702900 -- opérateur de l'AT
+-- 9150129472913338747 -- Premiere MES (pto)
+-- 9132076388013307199 -- Opérateur ayant posé la PTO
+
+
+-- liste des object_type_id :
+--7070550974112052460 -- AT functional point
+-- 2091353054013993289 -- compte client
+--8050748698013937493 -- dossier
+
+
+-- liste des list_value_id :
+--7071252072112293751-- operateur FREE
+
+
+
+------- liste des attr_id partie INFRA :
+ATTR_ID = 9126260987313898218 -- attribut calculé pareil sur RIP (site hébergeant le PM)
+ATTR_ID=7071252072112293752 -- géré par (blocs opérateurs)
+
+
+---- liste des object_type_id :
+object_type_id = 9126202343913897953 --PM reg
+OBJECT_TYPE_ID = 6032140237004833581 -- armoires (chamber)
+object_type_id = 7071064041112285731 -- bloc opérateur : groupe de slots gérés par le mm opérateur
+
+-- liste des list_value_id :
+LIST_VALUE_ID=7071252072112293751 -- opérateur free
+list_value_id = 9157851260114853777 -- IFTR sur RIP 
+
+

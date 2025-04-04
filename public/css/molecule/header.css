@@ -1,0 +1,66 @@
+.o-header__m-formSearch {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* margin-left: 4.5%; */
+    min-height: 100px;
+    width: 100%;
+    position: relative;
+    /* top: 3%;
+    left: 15%; */
+}
+
+/*SWITCH DATABASE*/
+.o-header__m-switchDiv {   
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.o-header__m-switchDivDB {
+    width: 100%;
+}
+
+/*TYPE SEARCH*/
+.o-header__m-typeSearch {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* text-indent: 1px; */
+    text-overflow: '';
+    z-index: 99;
+    cursor: pointer;
+}
+
+.o-header__m-typeSearch {
+    border: black solid 2px;
+    font-size: 16px;
+    /* padding-right: 12px; */
+    padding: 12px;
+    background: url("../../images/arrow.svg") no-repeat right;
+    background-size: 17px;
+    /* overflow-y: hidden; */
+    /* vertical-align: top; */
+    /* padding-top: 18px;
+    padding-bottom: 18px; */
+}
+
+.o-header__m-supportGerTypeSearch{
+    /* height: 40px; */
+    /* background-color: orange; */
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.o-header__m-switchDivSearch {
+    width: 100%;
+}
+
+.o-header__m-containerSeveral {
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    height: 56px;
+}
+
